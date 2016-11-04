@@ -1,10 +1,11 @@
-Gen3G repository contents
+# Gen3G repository contents
 
-Branches:
-master - final code to be used by group
-dev - for development of code
+## Branches
+-master: final code to be used by group
 
-Directories
-450k QC: QC pipeline for Illumina 450k Beadchip data
-850k QC: QC pipeline for Illumia EPIC Beadchip data
-Analysis code: Programs for implementing commonly used methods and analysis pipelines (e.g. RLM, Bumphunter, limma, etc.)
+-dev: for development of code
+
+## Directories
+-QC: QC pipelines for Illumina 450k Beadchip (450k/) and Illumia EPIC Beadchip (850k/) data
+
+-Analysis: Programs for implementing commonly used methods and analysis pipelines (e.g. RLM, Bumphunter, limma, etc.)
